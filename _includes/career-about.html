@@ -1,0 +1,20 @@
+{% assign career-about = site.data.data.career-about %}
+{% if career-about %}
+<section class="section summary-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ career-about.title }}
+  </h2>
+
+  <div class="summary">
+    <strong>
+    {{ career-about.summary | markdownify }}
+  </strong>
+  </div><!--//summary-->
+    
+</section><!--//section-->
+{% endif %}
