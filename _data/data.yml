@@ -74,6 +74,12 @@ career-position:
     DevOps
       
 education:
+
+    - degree: Bachelor of Science in Information Technology
+      university: European international university 
+      time: 2020 - 2022
+      details: |
+      
     - degree: Bachelor Of Art English (3th year)
       university: Distance Education (Dagon University)
       time: 2017 - 2020
@@ -236,7 +242,7 @@ skills:
         level: 80%
 
       - name: CI / CD
-        level: 75%
+        level: 80%
 
       - name: Kubernetes
         level: 70%
@@ -249,6 +255,9 @@ skills:
         
       - name: Python
         level: 55%
+      
+      - name: Terraform
+        level: 70%
 
 footer: >
 #    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
